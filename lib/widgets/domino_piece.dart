@@ -89,7 +89,7 @@ class DominoTwo extends StatelessWidget {
               height: 20,
               width: 20,
               decoration: BoxDecoration(
-                color: Color(0xFF172F0C),
+                color: Color(0xFF446d4d),
                 shape: BoxShape.circle,
               ),
             ),
@@ -102,7 +102,7 @@ class DominoTwo extends StatelessWidget {
               height: 20,
               width: 20,
               decoration: BoxDecoration(
-                color: Color(0xFF172F0C),
+                color: Color(0xFF446d4d),
                 shape: BoxShape.circle,
               ),
             ),
