@@ -13,7 +13,7 @@ class DominoPiece extends StatelessWidget {
       new DominoOne(),
       new DominoTwo(),
       new DominoThree(),
-      new DominoOne(),
+      new DominoFour(),
       new DominoOne(),
       new DominoOne(),
       new DominoOne(),
@@ -157,6 +157,63 @@ class DominoThree extends StatelessWidget {
               width: 20,
               decoration: BoxDecoration(
                 color: Color(0xFFCF86A6),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+class DominoFour extends StatelessWidget {
+  const DominoFour({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: <Widget>[
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF737156),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF737156),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF737156),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF737156),
                 shape: BoxShape.circle,
               ),
             ),
