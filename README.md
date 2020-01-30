@@ -6,7 +6,7 @@ Some screenshots:
 
 <img src="./screenshots/scrnshot1.png"
      alt="Markdown Monster icon"
-     style="margin-right: 10px; width: 300px" />
+     width="300px" />
 
 ## Getting Started
 
