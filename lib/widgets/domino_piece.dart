@@ -14,8 +14,8 @@ class DominoPiece extends StatelessWidget {
       new DominoTwo(),
       new DominoThree(),
       new DominoFour(),
-      new DominoOne(),
-      new DominoOne(),
+      new DominoFive(),
+      new DominoSix(),
       new DominoOne(),
       new DominoOne(),
       new DominoOne(),
@@ -65,7 +65,7 @@ class DominoOne extends StatelessWidget {
       height: 20,
       width: 20,
       decoration: BoxDecoration(
-        color: Color(0xFF204c83),
+        color: Color(0xFF327db8),
         shape: BoxShape.circle,
       ),
     );
@@ -214,6 +214,148 @@ class DominoFour extends StatelessWidget {
               width: 20,
               decoration: BoxDecoration(
                 color: Color(0xFF737156),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+class DominoFive extends StatelessWidget {
+  const DominoFive({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: <Widget>[
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF1B3B72),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF1B3B72),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF1B3B72),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF1B3B72),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFF1B3B72),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+class DominoSix extends StatelessWidget {
+  const DominoSix({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: <Widget>[
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFFdfd42a),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFFdfd42a),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFFdfd42a),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFFdfd42a),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFFdfd42a),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 20,
+              width: 20,
+              decoration: BoxDecoration(
+                color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
               ),
             ),
