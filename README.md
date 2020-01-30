@@ -2,6 +2,12 @@
 
 A Flutter Calculator for Mexican Train Dominoes Score.
 
+Some screenshots:
+
+<img src="./screenshots/scrnshot1.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 10px; width: 300px" />
+
 ## Getting Started
 
 For help getting started with Flutter, view our
