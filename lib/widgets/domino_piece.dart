@@ -19,7 +19,7 @@ class DominoPiece extends StatelessWidget {
       new DominoSeven(),
       new DominoEight(),
       new DominoNine(),
-      new DominoOne(),
+      new DominoTen(),
       new DominoOne(),
       new DominoOne(),
     ];
@@ -638,6 +638,116 @@ class DominoNine extends StatelessWidget {
               width: 20,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+class DominoTen extends StatelessWidget {
+  const DominoTen({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: <Widget>[
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 15,
+              width: 15,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
