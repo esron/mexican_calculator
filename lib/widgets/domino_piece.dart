@@ -153,7 +153,7 @@ class DominoThree extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFFCF86A6),
+                color: Color(0xFFD14765),
                 shape: BoxShape.circle,
               ),
             ),
@@ -166,7 +166,7 @@ class DominoThree extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFFCF86A6),
+                color: Color(0xFFD14765),
                 shape: BoxShape.circle,
               ),
             ),
@@ -179,7 +179,7 @@ class DominoThree extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFFCF86A6),
+                color: Color(0xFFD14765),
                 shape: BoxShape.circle,
               ),
             ),
