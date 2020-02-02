@@ -37,6 +37,26 @@ class DominoPiece extends StatelessWidget {
             bottomLeft: Radius.circular(10)
           ),
           border: Border.all(width: 0.5, color: Color(0xFFFFFFFF)),
+          boxShadow: [
+            BoxShadow(
+              color: Color(0x99FFFFFF),
+              blurRadius: 4.0, // has the effect of softening the shadow
+              spreadRadius: 1.5, // has the effect of extending the shadow
+              offset: Offset(
+                -2.0, // horizontal, move right 10
+                -2.0, // vertical, move down 10
+              ),
+            ),
+            BoxShadow(
+              color: Color(0x26000000),
+              blurRadius: 4.0, // has the effect of softening the shadow
+              spreadRadius: 0.5, // has the effect of extending the shadow
+              offset: Offset(
+                2.0, // horizontal, move right 10
+                2.0, // vertical, move down 10
+              ),
+            )
+         ],
         ),
         child: Center(
           child: list[value],
