@@ -916,7 +916,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -924,7 +924,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -932,7 +932,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -940,44 +940,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -990,7 +953,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -998,7 +961,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -1006,7 +969,7 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
@@ -1014,7 +977,44 @@ class DominoTwelve extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
+                color: Color(0xFF969696),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF969696),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF969696),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF969696),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF969696),
                 shape: BoxShape.circle,
               ),
             ),
