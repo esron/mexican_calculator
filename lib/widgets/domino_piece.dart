@@ -88,7 +88,7 @@ class DominoOne extends StatelessWidget {
       height: 13,
       width: 13,
       decoration: BoxDecoration(
-        color: Color(0xFF327db8),
+        color: Color(0xFF1C7DD6),
         shape: BoxShape.circle,
       ),
     );
