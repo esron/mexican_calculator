@@ -29,7 +29,7 @@ class DominoPiece extends StatelessWidget {
       child: new Container(
         padding: const EdgeInsets.all(8),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Color(0xFFEAEBF3),
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(10),
             topRight: Radius.circular(10),
