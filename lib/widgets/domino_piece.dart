@@ -85,8 +85,8 @@ class DominoOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 20,
-      width: 20,
+      height: 13,
+      width: 13,
       decoration: BoxDecoration(
         color: Color(0xFF327db8),
         shape: BoxShape.circle,
@@ -109,8 +109,8 @@ class DominoTwo extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF446d4d),
                 shape: BoxShape.circle,
@@ -122,8 +122,8 @@ class DominoTwo extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF446d4d),
                 shape: BoxShape.circle,
@@ -150,8 +150,8 @@ class DominoThree extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFCF86A6),
                 shape: BoxShape.circle,
@@ -163,8 +163,8 @@ class DominoThree extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFCF86A6),
                 shape: BoxShape.circle,
@@ -176,8 +176,8 @@ class DominoThree extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFCF86A6),
                 shape: BoxShape.circle,
@@ -204,16 +204,16 @@ class DominoFour extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF737156),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF737156),
                 shape: BoxShape.circle,
@@ -225,16 +225,16 @@ class DominoFour extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF737156),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF737156),
                 shape: BoxShape.circle,
@@ -261,16 +261,16 @@ class DominoFive extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF1B3B72),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF1B3B72),
                 shape: BoxShape.circle,
@@ -282,8 +282,8 @@ class DominoFive extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF1B3B72),
                 shape: BoxShape.circle,
@@ -295,16 +295,16 @@ class DominoFive extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF1B3B72),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF1B3B72),
                 shape: BoxShape.circle,
@@ -330,24 +330,24 @@ class DominoSix extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
@@ -359,24 +359,24 @@ class DominoSix extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFdfd42a),
                 shape: BoxShape.circle,
@@ -403,24 +403,24 @@ class DominoSeven extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
@@ -432,8 +432,8 @@ class DominoSeven extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
@@ -445,24 +445,24 @@ class DominoSeven extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF7b719d),
                 shape: BoxShape.circle,
@@ -489,45 +489,24 @@ class DominoEight extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF213f30),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF213f30),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
-              decoration: BoxDecoration(
-                color: Color(0xFF213f30),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 20,
-              width: 20,
-              decoration: BoxDecoration(
-                color: Color(0xFF213f30),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF213f30),
                 shape: BoxShape.circle,
@@ -539,24 +518,45 @@ class DominoEight extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF213f30),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF213f30),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF213f30),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF213f30),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF213f30),
                 shape: BoxShape.circle,
@@ -583,53 +583,24 @@ class DominoNine extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
-              decoration: BoxDecoration(
-                color: Color(0xFF372c6d),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 20,
-              width: 20,
-              decoration: BoxDecoration(
-                color: Color(0xFF372c6d),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 20,
-              width: 20,
-              decoration: BoxDecoration(
-                color: Color(0xFF372c6d),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
                 shape: BoxShape.circle,
@@ -641,24 +612,53 @@ class DominoNine extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 20,
-              width: 20,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF372c6d),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF372c6d),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF372c6d),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF372c6d),
                 shape: BoxShape.circle,
@@ -685,53 +685,32 @@ class DominoTen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFFd07629),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFFd07629),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
@@ -743,32 +722,53 @@ class DominoTen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFFd07629),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFFd07629),
                 shape: BoxShape.circle,
@@ -795,61 +795,32 @@ class DominoEleven extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF162222),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF162222),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF162222),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
@@ -861,32 +832,61 @@ class DominoEleven extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF162222),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF162222),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF162222),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF162222),
                 shape: BoxShape.circle,
@@ -913,69 +913,32 @@ class DominoTwelve extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 15,
-              width: 15,
-              decoration: BoxDecoration(
-                color: Color(0xFF9da4ad),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
@@ -987,32 +950,69 @@ class DominoTwelve extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
               ),
             ),
             Container(
-              height: 15,
-              width: 15,
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF9da4ad),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF9da4ad),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF9da4ad),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF9da4ad),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
               decoration: BoxDecoration(
                 color: Color(0xFF9da4ad),
                 shape: BoxShape.circle,
