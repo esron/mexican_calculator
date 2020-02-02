@@ -32,7 +32,9 @@ class DominoPiece extends StatelessWidget {
           color: Colors.white,
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(10),
-            topRight: Radius.circular(10)
+            topRight: Radius.circular(10),
+            bottomRight: Radius.circular(10),
+            bottomLeft: Radius.circular(10)
           ),
         ),
         child: Center(
