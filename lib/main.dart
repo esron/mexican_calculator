@@ -57,6 +57,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
               ),
+              Padding(
+                padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 15.0),
+                child: Divider(
+                  thickness: 1.5,
+                  color: Color(0x96717171),
+                ),
+              ),
               GridView.count(
                 shrinkWrap: true,
                 primary: false,
