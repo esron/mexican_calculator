@@ -406,7 +406,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
@@ -414,7 +414,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
@@ -422,7 +422,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
@@ -435,7 +435,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
@@ -448,7 +448,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
@@ -456,7 +456,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
@@ -464,7 +464,7 @@ class DominoSeven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF7b719d),
+                color: Color(0xFFD877C2),
                 shape: BoxShape.circle,
               ),
             ),
