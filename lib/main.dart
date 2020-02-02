@@ -67,9 +67,9 @@ class _MyHomePageState extends State<MyHomePage> {
               GridView.count(
                 shrinkWrap: true,
                 primary: false,
-                padding: const EdgeInsets.all(10),
-                crossAxisSpacing: 5,
-                mainAxisSpacing: 5,
+                padding: const EdgeInsets.all(15),
+                crossAxisSpacing: 15,
+                mainAxisSpacing: 15,
                 crossAxisCount: 4,
                 children: list.map((item) => DominoPiece(
                   onTap: () => _incrementCounter(item),
