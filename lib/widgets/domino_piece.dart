@@ -264,7 +264,7 @@ class DominoFive extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF1B3B72),
+                color: Color(0xFF00427E),
                 shape: BoxShape.circle,
               ),
             ),
@@ -272,7 +272,7 @@ class DominoFive extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF1B3B72),
+                color: Color(0xFF00427E),
                 shape: BoxShape.circle,
               ),
             ),
@@ -285,7 +285,7 @@ class DominoFive extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF1B3B72),
+                color: Color(0xFF00427E),
                 shape: BoxShape.circle,
               ),
             ),
@@ -298,7 +298,7 @@ class DominoFive extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF1B3B72),
+                color: Color(0xFF00427E),
                 shape: BoxShape.circle,
               ),
             ),
@@ -306,7 +306,7 @@ class DominoFive extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF1B3B72),
+                color: Color(0xFF00427E),
                 shape: BoxShape.circle,
               ),
             ),
