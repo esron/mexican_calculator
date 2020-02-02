@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     '$_counter',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Color(0xFF134E95),
                       fontSize: 112,
                     ),
                   ),
