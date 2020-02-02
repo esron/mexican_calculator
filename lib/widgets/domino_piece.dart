@@ -207,7 +207,7 @@ class DominoFour extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF737156),
+                color: Color(0xFF617D5A),
                 shape: BoxShape.circle,
               ),
             ),
@@ -215,7 +215,7 @@ class DominoFour extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF737156),
+                color: Color(0xFF617D5A),
                 shape: BoxShape.circle,
               ),
             ),
@@ -228,7 +228,7 @@ class DominoFour extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF737156),
+                color: Color(0xFF617D5A),
                 shape: BoxShape.circle,
               ),
             ),
@@ -236,7 +236,7 @@ class DominoFour extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF737156),
+                color: Color(0xFF617D5A),
                 shape: BoxShape.circle,
               ),
             ),
