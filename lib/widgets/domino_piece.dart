@@ -798,7 +798,7 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -806,7 +806,7 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -814,7 +814,7 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -822,36 +822,7 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ],
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF162222),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF162222),
-                shape: BoxShape.circle,
-              ),
-            ),
-            Container(
-              height: 13,
-              width: 13,
-              decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -864,7 +835,7 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -872,7 +843,7 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -880,7 +851,20 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ],
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
@@ -888,7 +872,23 @@ class DominoEleven extends StatelessWidget {
               height: 13,
               width: 13,
               decoration: BoxDecoration(
-                color: Color(0xFF162222),
+                color: Color(0xFF282828),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF282828),
+                shape: BoxShape.circle,
+              ),
+            ),
+            Container(
+              height: 13,
+              width: 13,
+              decoration: BoxDecoration(
+                color: Color(0xFF282828),
                 shape: BoxShape.circle,
               ),
             ),
