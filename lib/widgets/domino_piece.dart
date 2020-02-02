@@ -36,6 +36,7 @@ class DominoPiece extends StatelessWidget {
             bottomRight: Radius.circular(10),
             bottomLeft: Radius.circular(10)
           ),
+          border: Border.all(width: 0.5, color: Color(0xFFFFFFFF)),
         ),
         child: Center(
           child: list[value],
