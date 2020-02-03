@@ -38,40 +38,46 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black87,
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            GestureDetector(
-                onLongPress: () { setState(() {
-                  _counter = 0;
-                });},
-                child: Text(
-                  '$_counter',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 112,
+    return Material(
+      child: Container(
+        decoration: BoxDecoration(color: new Color(0xFFEAEBF3)),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              GestureDetector(
+                  onLongPress: () { setState(() {
+                    _counter = 0;
+                  });},
+                  child: Text(
+                    '$_counter',
+                    style: TextStyle(
+                      color: Color(0xFF134E95),
+                      fontSize: 112,
+                    ),
                   ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 30.0),
+                child: Divider(
+                  thickness: 1.5,
+                  color: Color(0x96717171),
                 ),
-            ),
-            GridView.count(
-              shrinkWrap: true,
-              primary: false,
-              padding: const EdgeInsets.all(10),
-              crossAxisSpacing: 5,
-              mainAxisSpacing: 5,
-              crossAxisCount: 4,
-              children: list.map((item) => DominoPiece(
-                onTap: () => _incrementCounter(item),
-                value: item,
-              )).toList(),
-            )
-          ],
+              ),
+              GridView.count(
+                shrinkWrap: true,
+                primary: false,
+                padding: const EdgeInsets.all(15),
+                crossAxisSpacing: 15,
+                mainAxisSpacing: 15,
+                crossAxisCount: 4,
+                children: list.map((item) => DominoPiece(
+                  onTap: () => _incrementCounter(item),
+                  value: item,
+                )).toList(),
+              )
+            ],
+          ),
         ),
       ),
     );
