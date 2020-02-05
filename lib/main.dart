@@ -55,8 +55,8 @@ class _MyHomePageState extends State<MyHomePage> {
               Stack(
                 children: <Widget>[
                   Align(
-										alignment: Alignment.center,
-										child: Text(
+                    alignment: Alignment.center,
+                    child: Text(
                       '$_counter',
                       style: TextStyle(
                         color: Color(0xFF134E95),
@@ -64,20 +64,20 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                   ),
-									if(_counter > 0)
-										Align(
-											alignment: Alignment.centerRight,
-											child: Container(
-												height: 130,
-											  child: IconButton(
+                  if(_counter > 0)
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: Container(
+                        height: 130,
+                        child: IconButton(
                           icon: new Icon(FeatherIcons.x),
                           color: Color(0xFF8F8D8D),
                           iconSize: 50,
                           padding: new EdgeInsets.only(right: 10.0),
                           onPressed: () => _cleanCounter(),
                         ),
-											),
-										),
+                      ),
+                    ),
                 ],
               ),
               Padding(
