@@ -52,17 +52,33 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              GestureDetector(
-                  onLongPress: () { setState(() {
-                    _counter = 0;
-                  });},
-                  child: Text(
-                    '$_counter',
-                    style: TextStyle(
-                      color: Color(0xFF134E95),
-                      fontSize: 112,
+              Stack(
+                children: <Widget>[
+                  Align(
+										alignment: Alignment.center,
+										child: Text(
+                      '$_counter',
+                      style: TextStyle(
+                        color: Color(0xFF134E95),
+                        fontSize: 112,
+                      ),
                     ),
                   ),
+									if(_counter > 0)
+										Align(
+											alignment: Alignment.centerRight,
+											child: Container(
+												height: 130,
+											  child: IconButton(
+										  	icon: new Icon(FeatherIcons.x),
+										  	color: Color(0xFF8F8D8D),
+										  	iconSize: 50,
+										  	padding: new EdgeInsets.only(right: 10.0),
+										  	onPressed: () => _cleanCounter(),
+										  ),
+											),
+										),
+                ],
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 30.0),
