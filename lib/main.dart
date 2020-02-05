@@ -70,12 +70,12 @@ class _MyHomePageState extends State<MyHomePage> {
 											child: Container(
 												height: 130,
 											  child: IconButton(
-										  	icon: new Icon(FeatherIcons.x),
-										  	color: Color(0xFF8F8D8D),
-										  	iconSize: 50,
-										  	padding: new EdgeInsets.only(right: 10.0),
-										  	onPressed: () => _cleanCounter(),
-										  ),
+                          icon: new Icon(FeatherIcons.x),
+                          color: Color(0xFF8F8D8D),
+                          iconSize: 50,
+                          padding: new EdgeInsets.only(right: 10.0),
+                          onPressed: () => _cleanCounter(),
+                        ),
 											),
 										),
                 ],
