@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mexican_calculator/widgets/domino_piece.dart';
+import 'package:feather_icons_flutter/feather_icons_flutter.dart';
 
 void main() => runApp(MyApp());
 
