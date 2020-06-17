@@ -1,4 +1,4 @@
-package com.example.mexican_calculator
+package com.esronlabs.mexican_calculator
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

@@ -1,6 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:mexican_calculator/widgets/domino_piece.dart';
 import 'package:feather_icons_flutter/feather_icons_flutter.dart';
+import 'package:firebase_admob/firebase_admob.dart';
+import 'package:mexican_calculator/widgets/domino_piece.dart';
+
+class EnvironmentConfig {
+  static const TEST_DEVICE = String.fromEnvironment(
+    'DEFINE_TEST_DEVICE',
+    defaultValue: 'Device ID'
+  );
+
+  static const BANNER_ID = String.fromEnvironment(
+    'DEFINE_BANNER_ID',
+    defaultValue: 'ca-app-pub-3940256099942544/6300978111'
+  );
+
+  static const ADS_APP_ID = String.fromEnvironment(
+    'DEFINE_APPLICATION_ID',
+    defaultValue: 'ca-app-pub-3940256099942544~3347511713'
+  );
+}
 
 void main() => runApp(MyApp());
 
@@ -28,8 +46,45 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  static const MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    testDevices: <String>[EnvironmentConfig.TEST_DEVICE],
+    nonPersonalizedAds: true,
+    keywords: <String>['Game', 'Dominó']
+  );
+
   int _counter = 0;
   List list = new List<int>.generate(12, (i) => i + 1);
+
+  BannerAd _bannerAd;
+
+  BannerAd createBannerAd(){
+    return BannerAd(
+      adUnitId: EnvironmentConfig.BANNER_ID,
+      size: AdSize.fullBanner,
+      targetingInfo: targetingInfo,
+      listener: (MobileAdEvent event) {
+        print("BannerAd $event");
+      }
+    );
+  }
+
+  @override
+  void initState() {
+    FirebaseAdMob.instance.initialize(
+      appId: EnvironmentConfig.ADS_APP_ID,
+    );
+
+    _bannerAd = createBannerAd()..load()..show();
+
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _bannerAd.dispose();
+
+    super.dispose();
+  }
 
   void _incrementCounter(int incremet) {
     setState(() {
